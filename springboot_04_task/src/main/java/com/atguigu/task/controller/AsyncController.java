@@ -13,7 +13,7 @@ public class AsyncController {
 
     @GetMapping("/hello")
     public String hello(){
-        asyncService.hello();
+        //asyncService.hello();
         return "success";
     }
 }
