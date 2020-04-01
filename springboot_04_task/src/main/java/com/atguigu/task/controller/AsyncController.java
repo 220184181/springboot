@@ -14,6 +14,6 @@ public class AsyncController {
     @GetMapping("/hello")
     public String hello(){
         //asyncService.hello();
-        return "successful";
+        return "success";
     }
 }
